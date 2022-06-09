@@ -12,7 +12,7 @@ const CakeContainer = (props) => {
 
 const mapStatToProps = (stat) => {
   return {
-    cakeNumber: stat.cakeNumber,
+    cakeNumber: stat.cake.cakeNumber,
   };
 };
 
