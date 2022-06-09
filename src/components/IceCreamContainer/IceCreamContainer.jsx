@@ -6,13 +6,13 @@ const IceCreamContainer = () => {
   const dispatch = useDispatch();
   return (
     <div>
-      <div>Number of cakes:{iceCreamNumber}</div>
+      <div>Number of ice creme:{iceCreamNumber}</div>
       <button
         onClick={() => {
           dispatch(buyIceCream());
         }}
       >
-        buy cake
+        buy ice cream
       </button>
     </div>
   );
